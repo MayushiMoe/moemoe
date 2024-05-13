@@ -38,7 +38,7 @@
 
 <body>
 
-<audio id="myAudio">
+<audio controls autoplay>
     <source src="audio.m4a" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
@@ -92,14 +92,6 @@ Arisa stopped and looked at Ohirume, her heart aching for her friend. She wrappe
   </main><!-- End #main -->
 
   <!-- Vendor JS Files -->
-  <script>
-    document.body.addEventListener('touchstart', function() {
-      var audio = document.getElementById('myAudio');
-      if (audio.paused) {
-        audio.play();
-      }
-    });
-  </script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
